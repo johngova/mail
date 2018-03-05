@@ -11,7 +11,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-public abstract class Autorefresh extends HttpServlet
+
+import com.sun.net.httpserver.HttpServer;
+public abstract class Autorefresh extends HttpServer
 {
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
