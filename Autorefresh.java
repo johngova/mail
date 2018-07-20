@@ -17,7 +17,7 @@ public abstract class Autorefresh extends HttpServer
 {
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-	   response.setIntHeader("Refresh", 5);
+	   //response.setIntHeader("Refresh", 5);
 
 	   // Set response content type
 	   response.setContentType("text/html");
